@@ -59,3 +59,34 @@ GitHub adalah layanan host web bersama yang menggunakan sistem kendali versi Git
 Karena GitHub adalah solusi wadah atau alat untuk berkolaborasi dengan tim ketika mengembangkan sebuah proyek repository.
 GitHub dapat memuat profil dan proyek Anda sehingga dapat dijadikan portofolio dalam berkarier.
 GitHub memiliki ratusan juta public repository yang dapat dijadikan referensi dalam mengembangkan perangkat lunak.
+
+
+
+## Unix Commad Line
+
+- CLI (Command Line Interface)
+Merupakan sebuah program yang memungkinkan user mengetik perintah atau command yang akan mmemerintahkan perangkat komputer untuk melakukan suatu tugas tertentu.
+- Terminal
+User dan komputer dihubungkan dengan namanya terminal, yaitu tempat/aplikasi dimana user dapat mengetikan atau memberikan suatu perintah. Disinilah tempat dimana shell akan berperan.
+- Shell
+Agar bisa terhubung dengan komputer maka user akan memerlukan penerjemah. Maka dari itu user memerlukan yang namanya shell. Definisi shell secara harfiah sendiri adalah program yang digunakan untuk berkomunikasi atau memerintah sistem.
+- File System Structure
+Struktur dimana mengatur cara bagaimana data disimpan dalam sistem. Contoh dalam Sistem Operasi Windows struktur file yang disimpan menggunakan struktur yang bentuknya mirip sebuah pohon seperti gambar dibawah.
+
+![image](https://user-images.githubusercontent.com/92351278/192747342-fdb669ae-4d2e-4aa1-be05-311d6d522fdd.png)
+
+ - Command
+ 
+ command adalah sebuah perintah dalam sebuah program untuk tes ping dan lain lain. Penjelasan: command jika diterjemahkan dalam bahasa indonesia adallah perintah
+ dan dibawah ini adalah contoh perintahnya : 
+ 
+- pwd (print working directory), untuk melihat current working directory
+- dir (directory), untuk melihat directory
+- cd (change directory), untuk pindah directory
+- ls (list), untuk melihat isi file di dalam directory
+- touch, untuk membuat file directory
+- cp (copy), untuk menyalin file directory
+- mv (move), untuk memindahkan file directory
+- rm (remove), untuk menghapus file directory
+
+
