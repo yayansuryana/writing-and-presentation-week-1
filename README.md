@@ -47,3 +47,15 @@ css juga disusun dengan struktur tertentu berikut contoh dan penjelasan dari str
 
 
 ## **Git&Github Dasar**
+
+* GIT
+Merupakan aplikasi yang dapat melacaks suatu perubahan yang terjadi di suatu folder ataupun file, yang biasanya digunakan oleh programmer sebagai tempat untuk menyimpan file programan mereka karena lebih efektif.
+
+* GITHUB
+GitHub adalah layanan host web bersama yang menggunakan sistem kendali versi Git dan layanan hosting internet. GitHub memberikan kontrol akses dan beberapa fitur kolaborasi seperti pelacakan bug, manajemen tugas, dan wiki untuk setiap proyek. GitHub menawarkan paket repositori pribadi dan gratis digunakan untuk proyek perangkat lunak open source (sumber terbuka). GitHub mempunyai lebih dari 40 juta pengguna dan 190 juta repositori yang menjadikannya layanan terbesar dari kode sumber di dunia.
+
+* Mengapa wajib menggunakan Git & Github?
+
+Karena GitHub adalah solusi wadah atau alat untuk berkolaborasi dengan tim ketika mengembangkan sebuah proyek repository.
+GitHub dapat memuat profil dan proyek Anda sehingga dapat dijadikan portofolio dalam berkarier.
+GitHub memiliki ratusan juta public repository yang dapat dijadikan referensi dalam mengembangkan perangkat lunak.
