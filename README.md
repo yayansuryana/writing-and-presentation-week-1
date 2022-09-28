@@ -234,8 +234,7 @@ Penjelasan contoh di atas:
 
 let i = 1 adalah pernyataan1. Kode tersebut berarti kita mendeklarasikan sebuah variabel baru bernama i dengan nilai awal 1. Jadi, pada contoh di atas, loop akan dimulai dari angka 1.
 i <= 10 adalah pernyataan2. Kode tersebut menentukan kondisi apakah loop bisa dijalankan. Loop akan terus berjalan apabila nilai variabel i masih di bawah atau sama dengan 10. Pada contoh di atas, perulangan yang dimaksud adalah menampilkan nilai variabel i pada console.
-i++ adalah pernyataan3. Kode tersebut berarti, setiap melakukan satu perulangan, maka tambahkan nilai i dengan angka 1.
-[18.32, 28/9/2022] Yazid: Berbeda dengan for loop dari topik sebelumnya, for...in digunakan untuk mengulang setiap properti dari sebuah objek.
+i++ adalah pernyataan3. Kode tersebut berarti, setiap melakukan satu perulangan, maka tambahkan nilai i dengan angka 1. Berbeda dengan for loop dari topik sebelumnya, for...in digunakan untuk mengulang setiap properti dari sebuah objek.
 
 Syntax yang digunakan ketika menggunakan for...in loop adalah sebagai berikut:
 
