@@ -89,4 +89,24 @@ Struktur dimana mengatur cara bagaimana data disimpan dalam sistem. Contoh dalam
 - mv (move), untuk memindahkan file directory
 - rm (remove), untuk menghapus file directory
 
+## Algoritma dan Struktur Data
+
+- Algoritma
+Algortima Adalah deskripsi berupa step-step yang dibutuhkan untuk menyelesaikan suatu masalah. Untuk menyelesaikan suatu masalah, tentunya kita harus mempunyai data struktur, nah data inilah yang akan kita gunakan untuk menyelesaikan suatu masalah dengan menggunakan algoritma.
+
+ Mengapa kita memerlukan algoritma?
+Manfaat algoritma antara lain:
+
+* Membantu menyederhanakan suatu program yang rumit dan juga besar.
+* Mempermudah pembuatan program yang dapat menyelesaikan masalah tertentu.
+* Membantu menyelesaikan suatu masalah dengan logika dan juga sistematis.
+
+Kualitas wajib dari algoritma
+
+* Input dan output harus didefinisikan terlebih dahulu dengan tepat
+* Setiap step harus benar-benar clear dan tidak ambigu
+* Algoritma seharusnya tidak mengandung suatu code pada bahasa pemograman tertentu.
+* Algoritma harus dibuat agar dapat digunakan dalam bahasa pemograman apapun.
+ 
+ 
 
