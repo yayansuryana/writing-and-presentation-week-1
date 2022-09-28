@@ -108,5 +108,165 @@ Kualitas wajib dari algoritma
 * Algoritma seharusnya tidak mengandung suatu code pada bahasa pemograman tertentu.
 * Algoritma harus dibuat agar dapat digunakan dalam bahasa pemograman apapun.
  
- 
+##  JavaScript Conditional
 
+Syntax dalam menggunakan if, else if dan else adalah sebagai berikut.
+
+- if
+Digunakan apabila hanya ada 1 kondisi dan 1 keputusan yang dijalankan.
+
+if (kondisi1) {
+  // masukkan kode yang akan dijalankan di sini apabila kondisi1 tercapai
+}
+if...else
+Digunakan apabila ada 1 kondisi dan 2 keputusan yang dijalankan.
+
+if (kondisi1) {
+  // masukkan kode yang akan dijalankan di sini apabila kondisi1 tercapai
+} else {
+  // masukkan kode yang akan dijalankan di sini apabila kondisi1 TIDAK tercapai
+}
+if...else if...else
+Digunakan apabila ada beberapa kondisi dan beberapa keputusan yang dijalankan.
+
+if (kondisi1) {
+  // masukkan kode yang akan dijalankan di sini apabila kondisi1 tercapai
+} else if (kondisi2) {
+  // masukkan kode yang akan dijalankan di sini apabila kondisi1 tidak tercapai dan kondisi2 tercapai
+} else if (kondisi3) {
+  // masukkan kode yang akan dijalankan di sini apabila kondisi1 dan kondisi2 tidak tercapai, dan kondisi3 tercapai
+} ... {
+} else {
+  // masukkan kode yang akan dijalankan di sini apabila semua kondisi di atas TIDAK tercapai
+}
+Contoh Penggunaan
+Coba bayangkan sebuah aplikasi yang bisa menampilkan kalimat:
+
+``` 
+"SANGAT MEMUASKAN" jika nilai di atas 80
+"MEMUASKAN" jika nilai berada di antara 60 hingga 80, dan
+"JANGAN MENYERAH, COBA LAGI!" jika nilai di bawah 60
+Ternyata, Andi mendapatkan nilai 95. Maka, Andi seharusnya mendapatkan kalimat "SANGAT MEMUASKAN" bukan?
+
+Bagaimana cara membuat aplikasinya? Yaitu seperti berikut ini:
+
+let nilaiAndi = 95;
+
+if (nilaiAndi > 80) {
+  console.log("SANGAT MEMUASKAN");
+} else if (nilaiAndi >= 60 && nilaiAndi <= 80) {
+  console.log("MEMUASKAN");
+} else {
+  console.log("JANGAN MENYERAH, COBA LAGI!");
+}
+
+// Output: SANGAT MEMUASKAN
+Penjelasan kode di atas:
+
+if (nilaiAndi > 80) { console.log('SANGAT MEMUASKAN'); }artinya jika variabel nilaiAndi bernilai di atas 80, maka aplikasi akan menampilkan kalimat "SANGAT MEMUASKAN".
+
+else if (nilaiAndi >= 60 && nilaiAndi <= 80) { console.log('MEMUASKAN'); }, artinya jika variabel nilaiAndi berada di atas atau sama dengan 60 dan nilaiAndi berada di bawah atau sama dengan 80 (yang bisa diartikan sebagai jika nilaiAndi berada di antara 60 hingga 80), maka aplikasi akan menampilkan kalimat "MEMUASKAN".
+
+else { console.log('JANGAN MENYERAH, COBA LAGI!');}, artinya selain kedua kondisi yang telah disebutkan di if dan else if, maka aplikasi akan menampilkan kalimat "JANGAN MENYERAH, COBA LAGI!".
+
+Ada cara yang lebih efisien yaitu dengan menggunakan perintah switch dan case.
+
+Syntaxnya seperti ini:
+
+switch (pernyataan) {
+  case kondisi1:
+    // keputusan yang dijalankan ketika kondisi1 tercapai
+    break;
+  case kondisi2:
+    // keputusan yang dijalankan ketika kondisi2 tercapai
+    break;
+  case kondisi3:
+    // keputusan yang dijalankan ketika kondisi3 tercapai
+    break;
+  ...
+  default:
+    // keputusan yang dijalankan ketika semua kondisi tidak tercapai
+}
+``` 
+## Javascript Looping
+
+Ada 5 jenis loop di JavaScript, yaitu:
+
+for
+for...in
+for...of
+while
+do...while
+Semua loop di atas pada dasarnya sama saja (terkecuali untuk for..in dan for...of ada sedikit perbedaan), jadi terserah kalian saja ingin memakai yang mana. Hanya saja, yang sering digunakan pada umumnya adalah for dan while loop.
+Syntax yang digunakan ketika menggunakan for loop adalah sebagai berikut:
+
+for (pernyataan1; pernyataan2; pernyataan3) {
+  // kode yang akan dijalankan ketika pernyataan2 benar (true)
+}
+Penjelasan kode di atas:
+
+pernyataan1 digunakan untuk menentukan nilai awal berjalannya loop.
+pernyataan2 digunakan untuk mendefinisikan kondisi berjalannya sebuah loop. Apabila nilai kondisinya false, maka loop akan berakhir.
+pernyataan3 digunakan untuk menambah atau mengurangi nilai awal pada pernyataan1 setiap kali loop dijalankan.
+Contoh Penggunaan
+Kita akan menampilkan angka 1 sampai dengan 10 di console. Caranya adalah:
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+/*
+Output:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+*/
+Penjelasan contoh di atas:
+
+``` 
+
+let i = 1 adalah pernyataan1. Kode tersebut berarti kita mendeklarasikan sebuah variabel baru bernama i dengan nilai awal 1. Jadi, pada contoh di atas, loop akan dimulai dari angka 1.
+i <= 10 adalah pernyataan2. Kode tersebut menentukan kondisi apakah loop bisa dijalankan. Loop akan terus berjalan apabila nilai variabel i masih di bawah atau sama dengan 10. Pada contoh di atas, perulangan yang dimaksud adalah menampilkan nilai variabel i pada console.
+i++ adalah pernyataan3. Kode tersebut berarti, setiap melakukan satu perulangan, maka tambahkan nilai i dengan angka 1.
+[18.32, 28/9/2022] Yazid: Berbeda dengan for loop dari topik sebelumnya, for...in digunakan untuk mengulang setiap properti dari sebuah objek.
+
+Syntax yang digunakan ketika menggunakan for...in loop adalah sebagai berikut:
+
+for (propertiObjek in namaObjek) {
+  // kode yang akan dijalankan
+}
+Penjelasan kode di atas:
+
+for (propertiObjek in namaObjek) berarti untuk setiap propertiObjek di namaObjek, maka jalankan kode di dalam {}. Variabel propertiObjek bisa diganti dengan nama variabel apapun.
+ Berbeda dengan for loop dari topik sebelumnya, for...of digunakan untuk mengulang setiap element dari objek yang bisa diulang (contoh array atau string).
+
+Syntax yang digunakan ketika menggunakan for...of loop adalah sebagai berikut:
+
+for (let element of namaVariabel) {
+  // kode yang akan dijalankan
+}
+Penjelasan kode di atas:
+
+for (let element of namaVariabel) berarti untuk setiap element di namaVariabel, maka jalankan kode di dalam {}. Variabel element bisa diganti dengan nama variabel apapun.
+Syntax dalam menggunakan while loop adalah sebagai berikut:
+
+while (kondisi) {
+  // kode yang akan dijalankan ketika kondisi benar (true)
+}
+Penjelasan kode di atas:
+
+while (kondisi) berarti ketika kondisi yang ditentukan benar (true), maka jalankan semua kode yang ada di dalam {}.
+Syntax dalam penggunaan do...while loop adalah:
+
+do {
+  // kode yang akan dijalankan ketika kondisi benar (true)
+} while (kondisi);
+
+``` 
