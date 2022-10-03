@@ -23,14 +23,16 @@ Math adalah objek bawaan yang memiliki properti dan metode untuk konstanta dan f
 Tipe data primitif itu hanya punya value tidak punya properti atau method. Contoh tipe data ini : number, boolean,null, string,integer,long, double. Non primitif artinya tidak didefinisikan secara default harus diisi sendiri seperti array dan class dimana didalamnya terdapat string,int, dll.
 Perbedaan utama antara tipe data primitif dan non-primitif adalah: Jenis primitif sudah ditentukan sebelumnya (sudah ditentukan) di Java. Tipe non-primitif dibuat oleh programmer dan tidak ditentukan oleh Java (kecuali untuk String ).
 
-- Primitive
+Primitive
+
  - Numbers
  - Strings
  - Booleans
  - undefined
  - null
 
-- non primitive
+Non primitive
+
  - Objects
  - Arrays
  - Functions
